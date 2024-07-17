@@ -16,14 +16,18 @@ This is the backend service for the todolist-react frontend web dashboard applic
 * MySql
 * Postman
 
-## Database Configuration
 
-## Architectural Components
+## Architectural Design
 
+## Database 
 
+## Security
+
+## API Design
+
+## Testing
 
 ## Compatibility
-
 
 
 ## Technical Information
