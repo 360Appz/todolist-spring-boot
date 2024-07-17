@@ -28,8 +28,8 @@ This is the backend service for the todolist-react frontend web dashboard applic
 
 ## Technical Information
 * Visual Studio Code
-* Backend
-  *   https://github.com/360Appz/todolist-spring-boot
+* Frontend
+  *   https://github.com/360Appz/todolist-react
 
 
 ### References
