@@ -1,5 +1,7 @@
 package com.todolist.todolist;
 
+import java.time.LocalDateTime;
+
 import org.aspectj.weaver.patterns.ArgsAnnotationPointcut;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -23,14 +25,11 @@ public class TodolistApplication {
 			Task task1 = new Task();
 			task1.setTitle("Testing");
 			task1.setDescription("Testing2");
+			task1.setDueDate(LocalDateTime.of(2024, 8, 15, 10, 30));
 			
-//			Task task2 = new Task();
-//			task2.setTitle("Tesiting2");
-//			task2.setDescription("Testing2");
 			
-			taskService.save(task1);
+			taskService.saveTask(task1);
 
-//			taskService.save(task2);
 			
 			System.out.println("List of Tasks");
 			for(Task task: taskService.getTaskList())

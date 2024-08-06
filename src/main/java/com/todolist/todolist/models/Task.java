@@ -15,9 +15,9 @@ public class Task {
 		
 	@Id
 	@GeneratedValue(strategy = GenerationType.UUID)
-	private UUID id;
+	private UUID taskId;
 	private String title;
 	private String description;
-	//private LocalDateTime dateTime;
+	private LocalDateTime dueDate;
 	
 }
