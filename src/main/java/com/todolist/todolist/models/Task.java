@@ -7,6 +7,7 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.PrePersist;
 import lombok.Data;
 
 @Entity
@@ -19,5 +20,12 @@ public class Task {
 	private String title;
 	private String description;
 	private LocalDateTime dueDate;
+	private String status;
+	private LocalDateTime createdAt; //Create timestamp when task is created
+	 
+	 @PrePersist
+	 protected void onCreate() {
+	   createdAt = LocalDateTime.now();
+	 } 
 	
 }

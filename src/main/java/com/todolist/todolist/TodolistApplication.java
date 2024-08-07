@@ -17,26 +17,26 @@ public class TodolistApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(TodolistApplication.class, args);
 	}
-	@Bean
-	public CommandLineRunner task(TaskService taskService)
-	{
-		return(args) ->
-		{
-			Task task1 = new Task();
-			task1.setTitle("Testing");
-			task1.setDescription("Testing2");
-			task1.setDueDate(LocalDateTime.of(2024, 8, 15, 10, 30));
-			
-			
-			taskService.saveTask(task1);
-
-			
-			System.out.println("List of Tasks");
-			for(Task task: taskService.getTaskList())
-			{
-				System.out.println("Task Details"+task);
-			}
-		};
-	}
+//	@Bean
+//	public CommandLineRunner task(TaskService taskService)
+//	{
+//		return(args) ->
+//		{
+//			Task task1 = new Task();
+//			task1.setTitle("Testing");
+//			task1.setDescription("Testing2");
+//			task1.setDueDate(LocalDateTime.of(2024, 8, 15, 10, 30));
+//			
+//			
+//			taskService.saveTask(task1);
+//
+//			
+//			System.out.println("List of Tasks");
+//			for(Task task: taskService.getTaskList())
+//			{
+//				System.out.println("Task Details"+task);
+//			}
+//		};
+//	}
 
 }
