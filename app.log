@@ -5915,3 +5915,61 @@ Caused by: java.lang.Error: Unresolved compilation problems:
 2024-08-14T22:42:10.157+08:00  INFO 8936 --- [todolist] [http-nio-8080-exec-8] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTcyMzY0NjUxOCwiZXhwIjoxNzIzNjUwMTE4fQ.OuxGShenqS5FWcYT7FNmoS4A-SPf_FzCO75SK8rRx8c
 2024-08-14T22:42:10.158+08:00  INFO 8936 --- [todolist] [http-nio-8080-exec-8] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: admin
 2024-08-14T22:42:10.166+08:00  INFO 8936 --- [todolist] [http-nio-8080-exec-8] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: admin, authorities: []
+2024-08-14T22:45:30.576+08:00  INFO 8936 --- [todolist] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (1 addition, 1 deletion, 0 modifications)
+2024-08-14T22:45:30.601+08:00  INFO 8936 --- [todolist] [Thread-25] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-14T22:45:30.602+08:00  INFO 8936 --- [todolist] [Thread-25] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2024-08-14T22:45:30.634+08:00  INFO 8936 --- [todolist] [Thread-25] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2024-08-14T22:45:30.736+08:00  INFO 8936 --- [todolist] [restartedMain] c.todolist.todolist.TodolistApplication  : Starting TodolistApplication using Java 21 with PID 8936 (C:\Users\360Appz\Downloads\CAREER\spring-boot-projects\todolist\target\classes started by 360Appz in C:\Users\360Appz\Downloads\CAREER\spring-boot-projects\todolist)
+2024-08-14T22:45:30.737+08:00  INFO 8936 --- [todolist] [restartedMain] c.todolist.todolist.TodolistApplication  : No active profile set, falling back to 1 default profile: "default"
+2024-08-14T22:45:30.974+08:00  INFO 8936 --- [todolist] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-14T22:45:30.991+08:00  INFO 8936 --- [todolist] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 2 JPA repository interfaces.
+2024-08-14T22:45:31.105+08:00  INFO 8936 --- [todolist] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-14T22:45:31.107+08:00  INFO 8936 --- [todolist] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-14T22:45:31.108+08:00  INFO 8936 --- [todolist] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-14T22:45:31.125+08:00  INFO 8936 --- [todolist] [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-08-14T22:45:31.125+08:00  INFO 8936 --- [todolist] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 386 ms
+2024-08-14T22:45:31.173+08:00  INFO 8936 --- [todolist] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-14T22:45:31.175+08:00  INFO 8936 --- [todolist] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-14T22:45:31.186+08:00  INFO 8936 --- [todolist] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-14T22:45:31.187+08:00  INFO 8936 --- [todolist] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2024-08-14T22:45:31.270+08:00  INFO 8936 --- [todolist] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-7 - Added connection oracle.jdbc.driver.T4CConnection@122501f9
+2024-08-14T22:45:31.270+08:00  INFO 8936 --- [todolist] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2024-08-14T22:45:31.338+08:00  INFO 8936 --- [todolist] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-14T22:45:31.525+08:00  INFO 8936 --- [todolist] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-14T22:45:31.626+08:00  INFO 8936 --- [todolist] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name myUserDetailsService
+2024-08-14T22:45:31.665+08:00  WARN 8936 --- [todolist] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-14T22:45:31.844+08:00  INFO 8936 --- [todolist] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-14T22:45:31.862+08:00  INFO 8936 --- [todolist] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-14T22:45:31.866+08:00  INFO 8936 --- [todolist] [restartedMain] c.todolist.todolist.TodolistApplication  : Started TodolistApplication in 1.163 seconds (process running for 1246.419)
+2024-08-14T22:45:31.868+08:00  INFO 8936 --- [todolist] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-14T22:46:16.468+08:00  INFO 8936 --- [todolist] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-14T22:46:16.468+08:00  INFO 8936 --- [todolist] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-14T22:46:16.469+08:00  INFO 8936 --- [todolist] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-14T22:46:16.471+08:00  INFO 8936 --- [todolist] [http-nio-8080-exec-2] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/security/register
+2024-08-14T22:46:16.471+08:00  INFO 8936 --- [todolist] [http-nio-8080-exec-2] c.t.todolist.security.JwtRequestFilter   : Authorization Header: null
+2024-08-14T22:46:16.471+08:00  WARN 8936 --- [todolist] [http-nio-8080-exec-2] c.t.todolist.security.JwtRequestFilter   : Authorization header is missing or does not start with Bearer 
+2024-08-14T22:46:16.475+08:00  INFO 8936 --- [todolist] [http-nio-8080-exec-2] c.t.t.c.security.RegistrationController  : Received Registration Request: RegistrationRequest(username=user2, password=user2, email=user2@testing.com)
+2024-08-14T22:46:31.006+08:00  INFO 8936 --- [todolist] [http-nio-8080-exec-3] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/security/authenticate
+2024-08-14T22:46:31.006+08:00  INFO 8936 --- [todolist] [http-nio-8080-exec-3] c.t.todolist.security.JwtRequestFilter   : Authorization Header: null
+2024-08-14T22:46:31.006+08:00  WARN 8936 --- [todolist] [http-nio-8080-exec-3] c.t.todolist.security.JwtRequestFilter   : Authorization header is missing or does not start with Bearer 
+2024-08-14T22:46:31.008+08:00  INFO 8936 --- [todolist] [http-nio-8080-exec-3] c.t.t.c.s.AuthenticationController       : Received Authentication Request: AuthenticationRequest(username=user2, password=user2)
+2024-08-14T22:46:41.309+08:00  INFO 8936 --- [todolist] [http-nio-8080-exec-4] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-14T22:46:41.309+08:00  INFO 8936 --- [todolist] [http-nio-8080-exec-4] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMiIsImlhdCI6MTcyMzY0Njc5MSwiZXhwIjoxNzIzNjUwMzkxfQ.cQvTbrVrNgZJAgEaL3TAki2i8pNkk2bW3dWJevi1l8U
+2024-08-14T22:46:41.309+08:00  INFO 8936 --- [todolist] [http-nio-8080-exec-4] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMiIsImlhdCI6MTcyMzY0Njc5MSwiZXhwIjoxNzIzNjUwMzkxfQ.cQvTbrVrNgZJAgEaL3TAki2i8pNkk2bW3dWJevi1l8U
+2024-08-14T22:46:41.311+08:00  INFO 8936 --- [todolist] [http-nio-8080-exec-4] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user2
+2024-08-14T22:46:41.366+08:00  INFO 8936 --- [todolist] [http-nio-8080-exec-4] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user2, authorities: []
+2024-08-14T22:46:55.584+08:00  INFO 8936 --- [todolist] [http-nio-8080-exec-5] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-14T22:46:55.585+08:00  INFO 8936 --- [todolist] [http-nio-8080-exec-5] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMiIsImlhdCI6MTcyMzY0Njc5MSwiZXhwIjoxNzIzNjUwMzkxfQ.cQvTbrVrNgZJAgEaL3TAki2i8pNkk2bW3dWJevi1l8U
+2024-08-14T22:46:55.585+08:00  INFO 8936 --- [todolist] [http-nio-8080-exec-5] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMiIsImlhdCI6MTcyMzY0Njc5MSwiZXhwIjoxNzIzNjUwMzkxfQ.cQvTbrVrNgZJAgEaL3TAki2i8pNkk2bW3dWJevi1l8U
+2024-08-14T22:46:55.586+08:00  INFO 8936 --- [todolist] [http-nio-8080-exec-5] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user2
+2024-08-14T22:46:55.592+08:00  INFO 8936 --- [todolist] [http-nio-8080-exec-5] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user2, authorities: []
+2024-08-14T22:48:17.625+08:00  INFO 8936 --- [todolist] [http-nio-8080-exec-8] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/addTask
+2024-08-14T22:48:17.625+08:00  INFO 8936 --- [todolist] [http-nio-8080-exec-8] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMiIsImlhdCI6MTcyMzY0Njc5MSwiZXhwIjoxNzIzNjUwMzkxfQ.cQvTbrVrNgZJAgEaL3TAki2i8pNkk2bW3dWJevi1l8U
+2024-08-14T22:48:17.625+08:00  INFO 8936 --- [todolist] [http-nio-8080-exec-8] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMiIsImlhdCI6MTcyMzY0Njc5MSwiZXhwIjoxNzIzNjUwMzkxfQ.cQvTbrVrNgZJAgEaL3TAki2i8pNkk2bW3dWJevi1l8U
+2024-08-14T22:48:17.625+08:00  INFO 8936 --- [todolist] [http-nio-8080-exec-8] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user2
+2024-08-14T22:48:17.630+08:00  INFO 8936 --- [todolist] [http-nio-8080-exec-8] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user2, authorities: []
+2024-08-14T22:48:22.869+08:00  INFO 8936 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-14T22:48:22.869+08:00  INFO 8936 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMiIsImlhdCI6MTcyMzY0Njc5MSwiZXhwIjoxNzIzNjUwMzkxfQ.cQvTbrVrNgZJAgEaL3TAki2i8pNkk2bW3dWJevi1l8U
+2024-08-14T22:48:22.870+08:00  INFO 8936 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMiIsImlhdCI6MTcyMzY0Njc5MSwiZXhwIjoxNzIzNjUwMzkxfQ.cQvTbrVrNgZJAgEaL3TAki2i8pNkk2bW3dWJevi1l8U
+2024-08-14T22:48:22.871+08:00  INFO 8936 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user2
+2024-08-14T22:48:22.875+08:00  INFO 8936 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user2, authorities: []

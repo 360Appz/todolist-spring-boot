@@ -1,4 +1,4 @@
-package com.todolist.todolist.models.security;
+package com.todolist.todolist.controllers.security;
 
 import com.todolist.todolist.DTO.security.RegistrationRequest;
 import com.todolist.todolist.services.security.MyUserDetailsService;
