@@ -44,6 +44,7 @@ public class SecurityConfig {
             .authorizeHttpRequests(authorizeRequests -> authorizeRequests
                 .requestMatchers( "/api/v1/security/authenticate", "/api/v1/security/register").permitAll()
                 .requestMatchers("/api/v1/CRUD/**").authenticated() // Ensure all CRUD endpoints are protected
+                .requestMatchers("/api/v1/tasks/search/**").authenticated() // Only allow authenticated users can search
                 .anyRequest().authenticated()
             )
             .sessionManagement(sessionManagement -> sessionManagement
