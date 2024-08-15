@@ -22,12 +22,7 @@ public class TaskSearchController {
         this.taskSearchService = taskSearchService;
     }
 
-//    @GetMapping
-//    public ResponseEntity<List<TaskDTO>> searchTasks(
-//            @RequestParam String keyword) {
-//        List<TaskDTO> tasks = taskSearchService.searchTasksByKeyword(keyword);
-//        return ResponseEntity.ok(tasks);
-//    }
+
     @GetMapping
     public ResponseEntity<?> searchTasks(@RequestParam String keyword) {
         List<TaskDTO> tasks = taskSearchService.searchTasksByKeyword(keyword);
