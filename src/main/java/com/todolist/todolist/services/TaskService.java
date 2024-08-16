@@ -7,12 +7,15 @@ import java.util.UUID;
 import com.todolist.todolist.models.Task;
 import com.todolist.todolist.DTO.TaskDTO;
 
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+
 public interface TaskService {
 	
 	
 	// CRUD Operations (DTO)
 	  
-	  List<TaskDTO> getTaskListForUser(UUID userId); //// Returns DTO instead of entity
+	Page<TaskDTO> getTaskListForUser(UUID userId, Pageable pageable); //// Returns DTO instead of entity
 	  
 	  TaskDTO getTaskById(UUID taskId); // Returns DTO instead of entity
 	  

@@ -16,6 +16,9 @@ import com.todolist.todolist.models.security.User;
 import com.todolist.todolist.DTO.TaskDTO;
 import com.todolist.todolist.exceptions.TaskResourceNotFoundException;
 
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+
 
 //DTO Implementation
 @Service
@@ -60,12 +63,9 @@ public class TaskServiceImpl implements TaskService {
     }
 
     
-    @Override
-    public List<TaskDTO> getTaskListForUser(UUID userId) {
-        List<Task> tasks = taskRepo.findByUserId(userId);
-        return tasks.stream()
-                    .map(this::convertToDTO)
-                    .collect(Collectors.toList());
+    public Page<TaskDTO> getTaskListForUser(UUID userId, Pageable pageable) {
+        Page<Task> tasks = taskRepo.findByUserId(userId, pageable);
+        return tasks.map(this::convertToDTO);
     }
 
     @Override

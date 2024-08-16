@@ -6,6 +6,8 @@ import com.todolist.todolist.models.security.User;
 import com.todolist.todolist.repositories.search.TaskSearchRepository;
 import com.todolist.todolist.services.security.MyUserDetailsService;
 
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import org.springframework.data.jpa.domain.Specification;
@@ -29,8 +31,8 @@ public class TaskSearchService {
         this.taskSearchRepository = taskSearchRepository;
         this.myUserDetailsService = myUserDetailsService;
     }
-
-    public List<TaskDTO> searchTasksByKeyword(String keyword) {
+    
+    public Page<TaskDTO> searchTasksByKeyword(String keyword, Pageable pageable) {
     	
         // Get the currently authenticated user
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
@@ -45,10 +47,10 @@ public class TaskSearchService {
                 )
             );
 
-            List<Task> tasks = taskSearchRepository.findAll(spec);
+        	//List<Task> tasks = taskSearchRepository.findAll(spec);
+            Page<Task> tasks = taskSearchRepository.findAll(spec, pageable);
 
-            return tasks.stream()
-                    .map(task -> TaskDTO.builder()
+            return tasks.map(task -> TaskDTO.builder()
                     		.taskId(task.getTaskId())
                             .title(task.getTitle())
                             .description(task.getDescription())
@@ -56,21 +58,9 @@ public class TaskSearchService {
                             .status(task.getStatus())
                             .createdAt(task.getCreatedAt())
                             .userId(task.getUser().getId())
-                            .build())
-                    .collect(Collectors.toList());
+                            .build());
+                    //.collect(Collectors.toList());
         
-//        Specification<Task> spec = (root, query, criteriaBuilder) -> criteriaBuilder.or(
-//            criteriaBuilder.like(root.get("title"), "%" + keyword + "%"),
-//            criteriaBuilder.like(root.get("description"), "%" + keyword + "%")
-//        );
-//
-//        List<Task> tasks = taskSearchRepository.findAll(spec);
-//
-//        return tasks.stream()
-//                .map(task -> TaskDTO.builder()
-//                        .title(task.getTitle())
-//                        .description(task.getDescription())
-//                        .build())
-//                .collect(Collectors.toList());
+
     }
 }
