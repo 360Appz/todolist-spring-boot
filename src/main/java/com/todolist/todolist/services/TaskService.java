@@ -5,22 +5,25 @@ import java.util.Optional;
 import java.util.UUID;
 
 import com.todolist.todolist.models.Task;
+import com.todolist.todolist.DTO.TaskDTO;
+
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 
 public interface TaskService {
 	
-	//CRUD operations
 	
-	List<Task> getTaskList(); //Get All Tasks
+	// CRUD Operations (DTO)
+	  
+	Page<TaskDTO> getTaskListForUser(UUID userId, Pageable pageable); //// Returns DTO instead of entity
+	  
+	  TaskDTO getTaskById(UUID taskId); // Returns DTO instead of entity
+	  
+	  TaskDTO saveTask(TaskDTO taskDTO); // Accepts and returns DTO instead of entity
+	  
+	  TaskDTO editTask(UUID taskId, TaskDTO taskDTO); // Accepts and returns DTO
+	  
+	  void deleteTask(UUID taskId); // No DTO required for delete
 	
-	Task saveTask(Task task); //Add Task
-	
-	Optional<Task> getTaskById(UUID taskId); //Get Task by ID
-	
-
-	Optional<Task> editTask(UUID taskId, Task updatedTask); //Edit Task
-	
-	Optional<Task> deleteTask(UUID taskId); //Delete Task
-	
-	
-			
+				
 }

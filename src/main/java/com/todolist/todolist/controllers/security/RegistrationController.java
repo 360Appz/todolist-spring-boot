@@ -23,15 +23,9 @@ public class RegistrationController {
         try {
             logger.info("Received Registration Request: {}", registrationRequest);
 
-            // Check if the user already exists
-            if (myUserDetailsService.userExists(registrationRequest.getUsername())) {
-                return ResponseEntity.status(HttpStatus.CONFLICT).body("User already exists");
-            }
+            // Create a new user and handle conflicts inside saveNewUser
+            return myUserDetailsService.saveNewUser(registrationRequest);
 
-            // Create a new user and save it to the database
-            myUserDetailsService.saveNewUser(registrationRequest);
-
-            return ResponseEntity.status(HttpStatus.CREATED).body("User registered successfully");
         } catch (Exception e) {
             logger.error("Error during registration", e);
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Registration failed");

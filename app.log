@@ -1,0 +1,783 @@
+2024-08-24T00:02:43.144+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/security/authenticate
+2024-08-24T00:02:43.170+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Authorization Header: null
+2024-08-24T00:02:43.171+08:00  WARN 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Authorization header is missing or does not start with Bearer 
+2024-08-24T00:02:43.173+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.t.c.s.AuthenticationController       : Received Authentication Request: AuthenticationRequest(username=admin, password=admin)
+2024-08-24T00:02:49.685+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-10] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/security/authenticate
+2024-08-24T00:02:49.685+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-10] c.t.todolist.security.JwtRequestFilter   : Authorization Header: null
+2024-08-24T00:02:49.686+08:00  WARN 12568 --- [todolist] [http-nio-8080-exec-10] c.t.todolist.security.JwtRequestFilter   : Authorization header is missing or does not start with Bearer 
+2024-08-24T00:02:49.687+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-10] c.t.t.c.s.AuthenticationController       : Received Authentication Request: AuthenticationRequest(username=admin, password=admin)
+2024-08-24T00:03:21.277+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-1] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/security/authenticate
+2024-08-24T00:03:21.278+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-1] c.t.todolist.security.JwtRequestFilter   : Authorization Header: null
+2024-08-24T00:03:21.278+08:00  WARN 12568 --- [todolist] [http-nio-8080-exec-1] c.t.todolist.security.JwtRequestFilter   : Authorization header is missing or does not start with Bearer 
+2024-08-24T00:03:21.279+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-1] c.t.t.c.s.AuthenticationController       : Received Authentication Request: AuthenticationRequest(username=admin, password=admin)
+2024-08-24T00:04:13.051+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-3] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/security/authenticate
+2024-08-24T00:04:13.051+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-3] c.t.todolist.security.JwtRequestFilter   : Authorization Header: null
+2024-08-24T00:04:13.051+08:00  WARN 12568 --- [todolist] [http-nio-8080-exec-3] c.t.todolist.security.JwtRequestFilter   : Authorization header is missing or does not start with Bearer 
+2024-08-24T00:04:13.052+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-3] c.t.t.c.s.AuthenticationController       : Received Authentication Request: AuthenticationRequest(username=admin, password=admin)
+2024-08-24T00:04:14.095+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-2] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T00:04:14.095+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-2] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTcyNDQyOTA1MywiZXhwIjoxNzI0NDMyNjUzfQ.kmQmP9FP2m9yJAW8uoBkoNbQ5ZY7etq70I01DbwGo6Q
+2024-08-24T00:04:14.095+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-2] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTcyNDQyOTA1MywiZXhwIjoxNzI0NDMyNjUzfQ.kmQmP9FP2m9yJAW8uoBkoNbQ5ZY7etq70I01DbwGo6Q
+2024-08-24T00:04:14.101+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-2] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: admin
+2024-08-24T00:04:14.110+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-2] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: admin, authorities: []
+2024-08-24T00:04:14.167+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-4] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T00:04:14.168+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-4] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTcyNDQyOTA1MywiZXhwIjoxNzI0NDMyNjUzfQ.kmQmP9FP2m9yJAW8uoBkoNbQ5ZY7etq70I01DbwGo6Q
+2024-08-24T00:04:14.168+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-4] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTcyNDQyOTA1MywiZXhwIjoxNzI0NDMyNjUzfQ.kmQmP9FP2m9yJAW8uoBkoNbQ5ZY7etq70I01DbwGo6Q
+2024-08-24T00:04:14.169+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-4] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: admin
+2024-08-24T00:04:14.173+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-4] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: admin, authorities: []
+2024-08-24T00:06:30.629+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T00:06:30.630+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTcyNDQyOTA1MywiZXhwIjoxNzI0NDMyNjUzfQ.kmQmP9FP2m9yJAW8uoBkoNbQ5ZY7etq70I01DbwGo6Q
+2024-08-24T00:06:30.630+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTcyNDQyOTA1MywiZXhwIjoxNzI0NDMyNjUzfQ.kmQmP9FP2m9yJAW8uoBkoNbQ5ZY7etq70I01DbwGo6Q
+2024-08-24T00:06:30.631+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: admin
+2024-08-24T00:06:30.640+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: admin, authorities: []
+2024-08-24T00:06:30.655+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-10] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T00:06:30.655+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-10] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTcyNDQyOTA1MywiZXhwIjoxNzI0NDMyNjUzfQ.kmQmP9FP2m9yJAW8uoBkoNbQ5ZY7etq70I01DbwGo6Q
+2024-08-24T00:06:30.655+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-10] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTcyNDQyOTA1MywiZXhwIjoxNzI0NDMyNjUzfQ.kmQmP9FP2m9yJAW8uoBkoNbQ5ZY7etq70I01DbwGo6Q
+2024-08-24T00:06:30.656+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-10] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: admin
+2024-08-24T00:06:30.660+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-10] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: admin, authorities: []
+2024-08-24T00:07:24.928+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-1] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T00:07:24.928+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-1] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTcyNDQyOTA1MywiZXhwIjoxNzI0NDMyNjUzfQ.kmQmP9FP2m9yJAW8uoBkoNbQ5ZY7etq70I01DbwGo6Q
+2024-08-24T00:07:24.928+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-1] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTcyNDQyOTA1MywiZXhwIjoxNzI0NDMyNjUzfQ.kmQmP9FP2m9yJAW8uoBkoNbQ5ZY7etq70I01DbwGo6Q
+2024-08-24T00:07:24.929+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-1] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: admin
+2024-08-24T00:07:24.939+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-1] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: admin, authorities: []
+2024-08-24T00:07:24.956+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-3] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T00:07:24.956+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-3] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTcyNDQyOTA1MywiZXhwIjoxNzI0NDMyNjUzfQ.kmQmP9FP2m9yJAW8uoBkoNbQ5ZY7etq70I01DbwGo6Q
+2024-08-24T00:07:24.956+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-3] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTcyNDQyOTA1MywiZXhwIjoxNzI0NDMyNjUzfQ.kmQmP9FP2m9yJAW8uoBkoNbQ5ZY7etq70I01DbwGo6Q
+2024-08-24T00:07:24.957+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-3] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: admin
+2024-08-24T00:07:24.965+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-3] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: admin, authorities: []
+2024-08-24T00:08:01.074+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-4] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T00:08:01.074+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-4] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQyNTYyMiwiZXhwIjoxNzI0NDI5MjIyfQ.X08GbHYLxkZFYH0p0XsJYPJd8ByiPa9leIWD3ojMMmc
+2024-08-24T00:08:01.074+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-4] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQyNTYyMiwiZXhwIjoxNzI0NDI5MjIyfQ.X08GbHYLxkZFYH0p0XsJYPJd8ByiPa9leIWD3ojMMmc
+2024-08-24T00:08:01.077+08:00 ERROR 12568 --- [todolist] [http-nio-8080-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+io.jsonwebtoken.ExpiredJwtException: JWT expired at 2024-08-24T00:07:02Z. Current time: 2024-08-24T00:08:01Z, a difference of 59075 milliseconds.  Allowed clock skew: 0 milliseconds.
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:385) ~[jjwt-0.9.1.jar:0.9.1]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:481) ~[jjwt-0.9.1.jar:0.9.1]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:541) ~[jjwt-0.9.1.jar:0.9.1]
+	at com.todolist.todolist.utils.JwtUtil.extractAllClaims(JwtUtil.java:113) ~[classes/:na]
+	at com.todolist.todolist.utils.JwtUtil.extractClaim(JwtUtil.java:108) ~[classes/:na]
+	at com.todolist.todolist.utils.JwtUtil.extractUsername(JwtUtil.java:100) ~[classes/:na]
+	at com.todolist.todolist.security.JwtRequestFilter.doFilterInternal(JwtRequestFilter.java:56) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:117) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.3.1.jar:6.3.1]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195) ~[spring-webmvc-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:230) ~[spring-security-config-6.3.1.jar:6.3.1]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.11.jar:6.1.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2024-08-24T00:12:42.097+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-7] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T00:12:42.098+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-7] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTcyNDQyOTA1MywiZXhwIjoxNzI0NDMyNjUzfQ.kmQmP9FP2m9yJAW8uoBkoNbQ5ZY7etq70I01DbwGo6Q
+2024-08-24T00:12:42.098+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-7] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTcyNDQyOTA1MywiZXhwIjoxNzI0NDMyNjUzfQ.kmQmP9FP2m9yJAW8uoBkoNbQ5ZY7etq70I01DbwGo6Q
+2024-08-24T00:12:42.100+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-7] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: admin
+2024-08-24T00:12:42.122+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-7] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: admin, authorities: []
+2024-08-24T00:12:42.150+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T00:12:42.150+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTcyNDQyOTA1MywiZXhwIjoxNzI0NDMyNjUzfQ.kmQmP9FP2m9yJAW8uoBkoNbQ5ZY7etq70I01DbwGo6Q
+2024-08-24T00:12:42.150+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTcyNDQyOTA1MywiZXhwIjoxNzI0NDMyNjUzfQ.kmQmP9FP2m9yJAW8uoBkoNbQ5ZY7etq70I01DbwGo6Q
+2024-08-24T00:12:42.153+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: admin
+2024-08-24T00:12:42.160+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: admin, authorities: []
+2024-08-24T00:13:11.010+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-10] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T00:13:11.010+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-10] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTcyNDQyOTA1MywiZXhwIjoxNzI0NDMyNjUzfQ.kmQmP9FP2m9yJAW8uoBkoNbQ5ZY7etq70I01DbwGo6Q
+2024-08-24T00:13:11.010+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-10] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTcyNDQyOTA1MywiZXhwIjoxNzI0NDMyNjUzfQ.kmQmP9FP2m9yJAW8uoBkoNbQ5ZY7etq70I01DbwGo6Q
+2024-08-24T00:13:11.013+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-10] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: admin
+2024-08-24T00:13:11.025+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-10] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: admin, authorities: []
+2024-08-24T00:13:11.049+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-10] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T00:13:11.049+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-10] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTcyNDQyOTA1MywiZXhwIjoxNzI0NDMyNjUzfQ.kmQmP9FP2m9yJAW8uoBkoNbQ5ZY7etq70I01DbwGo6Q
+2024-08-24T00:13:11.049+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-10] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTcyNDQyOTA1MywiZXhwIjoxNzI0NDMyNjUzfQ.kmQmP9FP2m9yJAW8uoBkoNbQ5ZY7etq70I01DbwGo6Q
+2024-08-24T00:13:11.050+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-10] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: admin
+2024-08-24T00:13:11.057+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-10] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: admin, authorities: []
+2024-08-24T00:14:12.958+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-4] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T00:14:12.959+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-4] c.t.todolist.security.JwtRequestFilter   : Authorization Header: null
+2024-08-24T00:14:12.959+08:00  WARN 12568 --- [todolist] [http-nio-8080-exec-4] c.t.todolist.security.JwtRequestFilter   : Authorization header is missing or does not start with Bearer 
+2024-08-24T00:14:12.966+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-5] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T00:14:12.966+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-5] c.t.todolist.security.JwtRequestFilter   : Authorization Header: null
+2024-08-24T00:14:12.966+08:00  WARN 12568 --- [todolist] [http-nio-8080-exec-5] c.t.todolist.security.JwtRequestFilter   : Authorization header is missing or does not start with Bearer 
+2024-08-24T00:14:31.291+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-6] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T00:14:31.292+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-6] c.t.todolist.security.JwtRequestFilter   : Authorization Header: null
+2024-08-24T00:14:31.292+08:00  WARN 12568 --- [todolist] [http-nio-8080-exec-6] c.t.todolist.security.JwtRequestFilter   : Authorization header is missing or does not start with Bearer 
+2024-08-24T00:14:31.299+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-8] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T00:14:31.300+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-8] c.t.todolist.security.JwtRequestFilter   : Authorization Header: null
+2024-08-24T00:14:31.300+08:00  WARN 12568 --- [todolist] [http-nio-8080-exec-8] c.t.todolist.security.JwtRequestFilter   : Authorization header is missing or does not start with Bearer 
+2024-08-24T00:14:48.774+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-7] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/security/authenticate
+2024-08-24T00:14:48.775+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-7] c.t.todolist.security.JwtRequestFilter   : Authorization Header: null
+2024-08-24T00:14:48.775+08:00  WARN 12568 --- [todolist] [http-nio-8080-exec-7] c.t.todolist.security.JwtRequestFilter   : Authorization header is missing or does not start with Bearer 
+2024-08-24T00:14:48.776+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-7] c.t.t.c.s.AuthenticationController       : Received Authentication Request: AuthenticationRequest(username=admin, password=admin)
+2024-08-24T00:14:49.915+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T00:14:49.916+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTcyNDQyOTY4OCwiZXhwIjoxNzI0NDMzMjg4fQ.OOsI9EQLXdgSrPy3_RrJnQxMund751P8Dtc33Nqf0hU
+2024-08-24T00:14:49.916+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTcyNDQyOTY4OCwiZXhwIjoxNzI0NDMzMjg4fQ.OOsI9EQLXdgSrPy3_RrJnQxMund751P8Dtc33Nqf0hU
+2024-08-24T00:14:49.917+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: admin
+2024-08-24T00:14:49.925+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: admin, authorities: []
+2024-08-24T00:14:49.942+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T00:14:49.943+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTcyNDQyOTY4OCwiZXhwIjoxNzI0NDMzMjg4fQ.OOsI9EQLXdgSrPy3_RrJnQxMund751P8Dtc33Nqf0hU
+2024-08-24T00:14:49.943+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTcyNDQyOTY4OCwiZXhwIjoxNzI0NDMzMjg4fQ.OOsI9EQLXdgSrPy3_RrJnQxMund751P8Dtc33Nqf0hU
+2024-08-24T00:14:49.944+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: admin
+2024-08-24T00:14:49.949+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: admin, authorities: []
+2024-08-24T00:22:46.358+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-2] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T00:22:46.358+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-2] c.t.todolist.security.JwtRequestFilter   : Authorization Header: null
+2024-08-24T00:22:46.358+08:00  WARN 12568 --- [todolist] [http-nio-8080-exec-2] c.t.todolist.security.JwtRequestFilter   : Authorization header is missing or does not start with Bearer 
+2024-08-24T00:22:46.363+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-4] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T00:22:46.363+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-4] c.t.todolist.security.JwtRequestFilter   : Authorization Header: null
+2024-08-24T00:22:46.363+08:00  WARN 12568 --- [todolist] [http-nio-8080-exec-4] c.t.todolist.security.JwtRequestFilter   : Authorization header is missing or does not start with Bearer 
+2024-08-24T00:23:02.271+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-5] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/security/authenticate
+2024-08-24T00:23:02.271+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-5] c.t.todolist.security.JwtRequestFilter   : Authorization Header: null
+2024-08-24T00:23:02.271+08:00  WARN 12568 --- [todolist] [http-nio-8080-exec-5] c.t.todolist.security.JwtRequestFilter   : Authorization header is missing or does not start with Bearer 
+2024-08-24T00:23:02.273+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-5] c.t.t.c.s.AuthenticationController       : Received Authentication Request: AuthenticationRequest(username=admin, password=admin)
+2024-08-24T00:23:03.126+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-6] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T00:23:03.126+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-6] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTcyNDQzMDE4MiwiZXhwIjoxNzI0NDMzNzgyfQ.ECyDpxjVe7LTqM4Gsm88moB2ozzTSUBYJvBa_zG95f0
+2024-08-24T00:23:03.126+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-6] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTcyNDQzMDE4MiwiZXhwIjoxNzI0NDMzNzgyfQ.ECyDpxjVe7LTqM4Gsm88moB2ozzTSUBYJvBa_zG95f0
+2024-08-24T00:23:03.129+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-6] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: admin
+2024-08-24T00:23:03.137+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-6] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: admin, authorities: []
+2024-08-24T00:23:03.153+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-8] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T00:23:03.153+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-8] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTcyNDQzMDE4MiwiZXhwIjoxNzI0NDMzNzgyfQ.ECyDpxjVe7LTqM4Gsm88moB2ozzTSUBYJvBa_zG95f0
+2024-08-24T00:23:03.153+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-8] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTcyNDQzMDE4MiwiZXhwIjoxNzI0NDMzNzgyfQ.ECyDpxjVe7LTqM4Gsm88moB2ozzTSUBYJvBa_zG95f0
+2024-08-24T00:23:03.154+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-8] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: admin
+2024-08-24T00:23:03.160+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-8] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: admin, authorities: []
+2024-08-24T00:27:24.054+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/security/authenticate
+2024-08-24T00:27:24.055+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Authorization Header: null
+2024-08-24T00:27:24.055+08:00  WARN 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Authorization header is missing or does not start with Bearer 
+2024-08-24T00:27:24.056+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.t.c.s.AuthenticationController       : Received Authentication Request: AuthenticationRequest(username=admin, password=admin)
+2024-08-24T00:27:24.917+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-3] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T00:27:24.917+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-3] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTcyNDQzMDQ0NCwiZXhwIjoxNzI0NDM0MDQ0fQ.KaSInQ6ejR_RESA5v8pt1sxYy6jH3X5e_u_3t_U3DhE
+2024-08-24T00:27:24.917+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-3] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTcyNDQzMDQ0NCwiZXhwIjoxNzI0NDM0MDQ0fQ.KaSInQ6ejR_RESA5v8pt1sxYy6jH3X5e_u_3t_U3DhE
+2024-08-24T00:27:24.919+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-3] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: admin
+2024-08-24T00:27:24.929+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-3] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: admin, authorities: []
+2024-08-24T00:27:24.946+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-10] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T00:27:24.946+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-10] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTcyNDQzMDQ0NCwiZXhwIjoxNzI0NDM0MDQ0fQ.KaSInQ6ejR_RESA5v8pt1sxYy6jH3X5e_u_3t_U3DhE
+2024-08-24T00:27:24.947+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-10] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTcyNDQzMDQ0NCwiZXhwIjoxNzI0NDM0MDQ0fQ.KaSInQ6ejR_RESA5v8pt1sxYy6jH3X5e_u_3t_U3DhE
+2024-08-24T00:27:24.948+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-10] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: admin
+2024-08-24T00:27:24.952+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-10] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: admin, authorities: []
+2024-08-24T00:27:37.397+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-2] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/security/authenticate
+2024-08-24T00:27:37.397+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-2] c.t.todolist.security.JwtRequestFilter   : Authorization Header: null
+2024-08-24T00:27:37.397+08:00  WARN 12568 --- [todolist] [http-nio-8080-exec-2] c.t.todolist.security.JwtRequestFilter   : Authorization header is missing or does not start with Bearer 
+2024-08-24T00:27:37.398+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-2] c.t.t.c.s.AuthenticationController       : Received Authentication Request: AuthenticationRequest(username=user1, password=user1)
+2024-08-24T00:27:38.224+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-4] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T00:27:38.225+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-4] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMDQ1NywiZXhwIjoxNzI0NDM0MDU3fQ.L1CJyK2CQ7uuKTogJWSqZxMDhp7776HMrZjiJ8zYGkM
+2024-08-24T00:27:38.225+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-4] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMDQ1NywiZXhwIjoxNzI0NDM0MDU3fQ.L1CJyK2CQ7uuKTogJWSqZxMDhp7776HMrZjiJ8zYGkM
+2024-08-24T00:27:38.226+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-4] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T00:27:38.235+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-4] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T00:27:38.262+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-5] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T00:27:38.262+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-5] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMDQ1NywiZXhwIjoxNzI0NDM0MDU3fQ.L1CJyK2CQ7uuKTogJWSqZxMDhp7776HMrZjiJ8zYGkM
+2024-08-24T00:27:38.262+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-5] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMDQ1NywiZXhwIjoxNzI0NDM0MDU3fQ.L1CJyK2CQ7uuKTogJWSqZxMDhp7776HMrZjiJ8zYGkM
+2024-08-24T00:27:38.262+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-5] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T00:27:38.266+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-5] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T00:29:20.652+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-1] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/security/authenticate
+2024-08-24T00:29:20.652+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-1] c.t.todolist.security.JwtRequestFilter   : Authorization Header: null
+2024-08-24T00:29:20.652+08:00  WARN 12568 --- [todolist] [http-nio-8080-exec-1] c.t.todolist.security.JwtRequestFilter   : Authorization header is missing or does not start with Bearer 
+2024-08-24T00:29:20.654+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-1] c.t.t.c.s.AuthenticationController       : Received Authentication Request: AuthenticationRequest(username=user1, password=user1)
+2024-08-24T00:29:29.355+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T00:29:29.355+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMDU2MCwiZXhwIjoxNzI0NDM0MTYwfQ.hp5xmqfXLq2ZAWx6UjGTTwGh0C2dxXdEv2JX_7k99yk
+2024-08-24T00:29:29.355+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMDU2MCwiZXhwIjoxNzI0NDM0MTYwfQ.hp5xmqfXLq2ZAWx6UjGTTwGh0C2dxXdEv2JX_7k99yk
+2024-08-24T00:29:29.356+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T00:29:29.363+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T00:30:50.195+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-10] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T00:30:50.196+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-10] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMDQ1NywiZXhwIjoxNzI0NDM0MDU3fQ.L1CJyK2CQ7uuKTogJWSqZxMDhp7776HMrZjiJ8zYGkM
+2024-08-24T00:30:50.196+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-10] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMDQ1NywiZXhwIjoxNzI0NDM0MDU3fQ.L1CJyK2CQ7uuKTogJWSqZxMDhp7776HMrZjiJ8zYGkM
+2024-08-24T00:30:50.198+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-10] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T00:30:50.206+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-10] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T00:30:50.235+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-2] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T00:30:50.236+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-2] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMDQ1NywiZXhwIjoxNzI0NDM0MDU3fQ.L1CJyK2CQ7uuKTogJWSqZxMDhp7776HMrZjiJ8zYGkM
+2024-08-24T00:30:50.236+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-2] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMDQ1NywiZXhwIjoxNzI0NDM0MDU3fQ.L1CJyK2CQ7uuKTogJWSqZxMDhp7776HMrZjiJ8zYGkM
+2024-08-24T00:30:50.237+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-2] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T00:30:50.243+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-2] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T00:33:41.517+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-6] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T00:33:41.518+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-6] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMDQ1NywiZXhwIjoxNzI0NDM0MDU3fQ.L1CJyK2CQ7uuKTogJWSqZxMDhp7776HMrZjiJ8zYGkM
+2024-08-24T00:33:41.518+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-6] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMDQ1NywiZXhwIjoxNzI0NDM0MDU3fQ.L1CJyK2CQ7uuKTogJWSqZxMDhp7776HMrZjiJ8zYGkM
+2024-08-24T00:33:41.519+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-6] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T00:33:41.528+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-6] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T00:33:41.555+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-8] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T00:33:41.555+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-8] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMDQ1NywiZXhwIjoxNzI0NDM0MDU3fQ.L1CJyK2CQ7uuKTogJWSqZxMDhp7776HMrZjiJ8zYGkM
+2024-08-24T00:33:41.555+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-8] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMDQ1NywiZXhwIjoxNzI0NDM0MDU3fQ.L1CJyK2CQ7uuKTogJWSqZxMDhp7776HMrZjiJ8zYGkM
+2024-08-24T00:33:41.557+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-8] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T00:33:41.561+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-8] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T00:36:01.824+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T00:36:01.825+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMDQ1NywiZXhwIjoxNzI0NDM0MDU3fQ.L1CJyK2CQ7uuKTogJWSqZxMDhp7776HMrZjiJ8zYGkM
+2024-08-24T00:36:01.825+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMDQ1NywiZXhwIjoxNzI0NDM0MDU3fQ.L1CJyK2CQ7uuKTogJWSqZxMDhp7776HMrZjiJ8zYGkM
+2024-08-24T00:36:01.827+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T00:36:01.838+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T00:36:01.874+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-3] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T00:36:01.874+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-3] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMDQ1NywiZXhwIjoxNzI0NDM0MDU3fQ.L1CJyK2CQ7uuKTogJWSqZxMDhp7776HMrZjiJ8zYGkM
+2024-08-24T00:36:01.874+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-3] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMDQ1NywiZXhwIjoxNzI0NDM0MDU3fQ.L1CJyK2CQ7uuKTogJWSqZxMDhp7776HMrZjiJ8zYGkM
+2024-08-24T00:36:01.875+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-3] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T00:36:01.882+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-3] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T00:37:31.398+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-6] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T00:37:31.399+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-6] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMDQ1NywiZXhwIjoxNzI0NDM0MDU3fQ.L1CJyK2CQ7uuKTogJWSqZxMDhp7776HMrZjiJ8zYGkM
+2024-08-24T00:37:31.399+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-6] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMDQ1NywiZXhwIjoxNzI0NDM0MDU3fQ.L1CJyK2CQ7uuKTogJWSqZxMDhp7776HMrZjiJ8zYGkM
+2024-08-24T00:37:31.400+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-6] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T00:37:31.407+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-6] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T00:37:31.433+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-8] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T00:37:31.433+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-8] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMDQ1NywiZXhwIjoxNzI0NDM0MDU3fQ.L1CJyK2CQ7uuKTogJWSqZxMDhp7776HMrZjiJ8zYGkM
+2024-08-24T00:37:31.433+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-8] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMDQ1NywiZXhwIjoxNzI0NDM0MDU3fQ.L1CJyK2CQ7uuKTogJWSqZxMDhp7776HMrZjiJ8zYGkM
+2024-08-24T00:37:31.435+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-8] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T00:37:31.442+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-8] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T00:40:43.779+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T00:40:43.780+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMDQ1NywiZXhwIjoxNzI0NDM0MDU3fQ.L1CJyK2CQ7uuKTogJWSqZxMDhp7776HMrZjiJ8zYGkM
+2024-08-24T00:40:43.780+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMDQ1NywiZXhwIjoxNzI0NDM0MDU3fQ.L1CJyK2CQ7uuKTogJWSqZxMDhp7776HMrZjiJ8zYGkM
+2024-08-24T00:40:43.782+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T00:40:43.797+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T00:40:43.834+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-3] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T00:40:43.835+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-3] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMDQ1NywiZXhwIjoxNzI0NDM0MDU3fQ.L1CJyK2CQ7uuKTogJWSqZxMDhp7776HMrZjiJ8zYGkM
+2024-08-24T00:40:43.835+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-3] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMDQ1NywiZXhwIjoxNzI0NDM0MDU3fQ.L1CJyK2CQ7uuKTogJWSqZxMDhp7776HMrZjiJ8zYGkM
+2024-08-24T00:40:43.836+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-3] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T00:40:43.844+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-3] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T00:41:37.205+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-10] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T00:41:37.206+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-10] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMDQ1NywiZXhwIjoxNzI0NDM0MDU3fQ.L1CJyK2CQ7uuKTogJWSqZxMDhp7776HMrZjiJ8zYGkM
+2024-08-24T00:41:37.206+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-10] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMDQ1NywiZXhwIjoxNzI0NDM0MDU3fQ.L1CJyK2CQ7uuKTogJWSqZxMDhp7776HMrZjiJ8zYGkM
+2024-08-24T00:41:37.207+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-10] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T00:41:37.272+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-10] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T00:41:37.319+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-2] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T00:41:37.320+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-2] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMDQ1NywiZXhwIjoxNzI0NDM0MDU3fQ.L1CJyK2CQ7uuKTogJWSqZxMDhp7776HMrZjiJ8zYGkM
+2024-08-24T00:41:37.320+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-2] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMDQ1NywiZXhwIjoxNzI0NDM0MDU3fQ.L1CJyK2CQ7uuKTogJWSqZxMDhp7776HMrZjiJ8zYGkM
+2024-08-24T00:41:37.322+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-2] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T00:41:37.328+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-2] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T00:46:59.196+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-6] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T00:46:59.196+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-6] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMDQ1NywiZXhwIjoxNzI0NDM0MDU3fQ.L1CJyK2CQ7uuKTogJWSqZxMDhp7776HMrZjiJ8zYGkM
+2024-08-24T00:46:59.196+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-6] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMDQ1NywiZXhwIjoxNzI0NDM0MDU3fQ.L1CJyK2CQ7uuKTogJWSqZxMDhp7776HMrZjiJ8zYGkM
+2024-08-24T00:46:59.198+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-6] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T00:46:59.206+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-6] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T00:46:59.239+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-8] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T00:46:59.239+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-8] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMDQ1NywiZXhwIjoxNzI0NDM0MDU3fQ.L1CJyK2CQ7uuKTogJWSqZxMDhp7776HMrZjiJ8zYGkM
+2024-08-24T00:46:59.239+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-8] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMDQ1NywiZXhwIjoxNzI0NDM0MDU3fQ.L1CJyK2CQ7uuKTogJWSqZxMDhp7776HMrZjiJ8zYGkM
+2024-08-24T00:46:59.240+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-8] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T00:46:59.248+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-8] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T00:47:48.130+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-1] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T00:47:48.131+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-1] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMDQ1NywiZXhwIjoxNzI0NDM0MDU3fQ.L1CJyK2CQ7uuKTogJWSqZxMDhp7776HMrZjiJ8zYGkM
+2024-08-24T00:47:48.131+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-1] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMDQ1NywiZXhwIjoxNzI0NDM0MDU3fQ.L1CJyK2CQ7uuKTogJWSqZxMDhp7776HMrZjiJ8zYGkM
+2024-08-24T00:47:48.132+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-1] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T00:47:48.151+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-1] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T00:47:48.178+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-7] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T00:47:48.178+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-7] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMDQ1NywiZXhwIjoxNzI0NDM0MDU3fQ.L1CJyK2CQ7uuKTogJWSqZxMDhp7776HMrZjiJ8zYGkM
+2024-08-24T00:47:48.178+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-7] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMDQ1NywiZXhwIjoxNzI0NDM0MDU3fQ.L1CJyK2CQ7uuKTogJWSqZxMDhp7776HMrZjiJ8zYGkM
+2024-08-24T00:47:48.179+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-7] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T00:47:48.185+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-7] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T00:49:17.034+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-2] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/security/authenticate
+2024-08-24T00:49:17.034+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-2] c.t.todolist.security.JwtRequestFilter   : Authorization Header: null
+2024-08-24T00:49:17.034+08:00  WARN 12568 --- [todolist] [http-nio-8080-exec-2] c.t.todolist.security.JwtRequestFilter   : Authorization header is missing or does not start with Bearer 
+2024-08-24T00:49:17.036+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-2] c.t.t.c.s.AuthenticationController       : Received Authentication Request: AuthenticationRequest(username=user1, password=user1)
+2024-08-24T00:49:17.931+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-4] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T00:49:17.932+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-4] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMTc1NywiZXhwIjoxNzI0NDM1MzU3fQ.04SKLyxPaQ9hqHkxiIqcsNv7qwd1HgUtkbLE8fPHioQ
+2024-08-24T00:49:17.932+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-4] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMTc1NywiZXhwIjoxNzI0NDM1MzU3fQ.04SKLyxPaQ9hqHkxiIqcsNv7qwd1HgUtkbLE8fPHioQ
+2024-08-24T00:49:17.933+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-4] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T00:49:17.941+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-4] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T00:49:17.965+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-5] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T00:49:17.965+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-5] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMTc1NywiZXhwIjoxNzI0NDM1MzU3fQ.04SKLyxPaQ9hqHkxiIqcsNv7qwd1HgUtkbLE8fPHioQ
+2024-08-24T00:49:17.965+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-5] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMTc1NywiZXhwIjoxNzI0NDM1MzU3fQ.04SKLyxPaQ9hqHkxiIqcsNv7qwd1HgUtkbLE8fPHioQ
+2024-08-24T00:49:17.966+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-5] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T00:49:17.969+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-5] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T00:56:39.375+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-1] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T00:56:39.375+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-1] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMTc1NywiZXhwIjoxNzI0NDM1MzU3fQ.04SKLyxPaQ9hqHkxiIqcsNv7qwd1HgUtkbLE8fPHioQ
+2024-08-24T00:56:39.375+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-1] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMTc1NywiZXhwIjoxNzI0NDM1MzU3fQ.04SKLyxPaQ9hqHkxiIqcsNv7qwd1HgUtkbLE8fPHioQ
+2024-08-24T00:56:39.376+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-1] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T00:56:39.384+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-1] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T00:56:39.407+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-7] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T00:56:39.407+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-7] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMTc1NywiZXhwIjoxNzI0NDM1MzU3fQ.04SKLyxPaQ9hqHkxiIqcsNv7qwd1HgUtkbLE8fPHioQ
+2024-08-24T00:56:39.407+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-7] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMTc1NywiZXhwIjoxNzI0NDM1MzU3fQ.04SKLyxPaQ9hqHkxiIqcsNv7qwd1HgUtkbLE8fPHioQ
+2024-08-24T00:56:39.408+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-7] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T00:56:39.414+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-7] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T00:57:25.576+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-3] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T00:57:25.576+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-3] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMTc1NywiZXhwIjoxNzI0NDM1MzU3fQ.04SKLyxPaQ9hqHkxiIqcsNv7qwd1HgUtkbLE8fPHioQ
+2024-08-24T00:57:25.576+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-3] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMTc1NywiZXhwIjoxNzI0NDM1MzU3fQ.04SKLyxPaQ9hqHkxiIqcsNv7qwd1HgUtkbLE8fPHioQ
+2024-08-24T00:57:25.577+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-3] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T00:57:25.583+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-3] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T00:57:25.609+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T00:57:25.609+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMTc1NywiZXhwIjoxNzI0NDM1MzU3fQ.04SKLyxPaQ9hqHkxiIqcsNv7qwd1HgUtkbLE8fPHioQ
+2024-08-24T00:57:25.610+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMTc1NywiZXhwIjoxNzI0NDM1MzU3fQ.04SKLyxPaQ9hqHkxiIqcsNv7qwd1HgUtkbLE8fPHioQ
+2024-08-24T00:57:25.611+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T00:57:25.616+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T00:57:32.262+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-10] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T00:57:32.263+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-10] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMTc1NywiZXhwIjoxNzI0NDM1MzU3fQ.04SKLyxPaQ9hqHkxiIqcsNv7qwd1HgUtkbLE8fPHioQ
+2024-08-24T00:57:32.263+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-10] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMTc1NywiZXhwIjoxNzI0NDM1MzU3fQ.04SKLyxPaQ9hqHkxiIqcsNv7qwd1HgUtkbLE8fPHioQ
+2024-08-24T00:57:32.265+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-10] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T00:57:32.278+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-10] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T00:57:32.310+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-2] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T00:57:32.310+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-2] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMTc1NywiZXhwIjoxNzI0NDM1MzU3fQ.04SKLyxPaQ9hqHkxiIqcsNv7qwd1HgUtkbLE8fPHioQ
+2024-08-24T00:57:32.310+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-2] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMTc1NywiZXhwIjoxNzI0NDM1MzU3fQ.04SKLyxPaQ9hqHkxiIqcsNv7qwd1HgUtkbLE8fPHioQ
+2024-08-24T00:57:32.311+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-2] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T00:57:32.317+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-2] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T00:58:13.637+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-4] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T00:58:13.637+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-4] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMTc1NywiZXhwIjoxNzI0NDM1MzU3fQ.04SKLyxPaQ9hqHkxiIqcsNv7qwd1HgUtkbLE8fPHioQ
+2024-08-24T00:58:13.637+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-4] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMTc1NywiZXhwIjoxNzI0NDM1MzU3fQ.04SKLyxPaQ9hqHkxiIqcsNv7qwd1HgUtkbLE8fPHioQ
+2024-08-24T00:58:13.637+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-4] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T00:58:13.647+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-4] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T00:58:13.677+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-5] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T00:58:13.678+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-5] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMTc1NywiZXhwIjoxNzI0NDM1MzU3fQ.04SKLyxPaQ9hqHkxiIqcsNv7qwd1HgUtkbLE8fPHioQ
+2024-08-24T00:58:13.678+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-5] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMTc1NywiZXhwIjoxNzI0NDM1MzU3fQ.04SKLyxPaQ9hqHkxiIqcsNv7qwd1HgUtkbLE8fPHioQ
+2024-08-24T00:58:13.678+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-5] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T00:58:13.682+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-5] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T00:58:17.201+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-8] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T00:58:17.201+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-8] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMTc1NywiZXhwIjoxNzI0NDM1MzU3fQ.04SKLyxPaQ9hqHkxiIqcsNv7qwd1HgUtkbLE8fPHioQ
+2024-08-24T00:58:17.201+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-8] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMTc1NywiZXhwIjoxNzI0NDM1MzU3fQ.04SKLyxPaQ9hqHkxiIqcsNv7qwd1HgUtkbLE8fPHioQ
+2024-08-24T00:58:17.203+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-8] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T00:58:17.211+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-8] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T00:58:17.234+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-6] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T00:58:17.235+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-6] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMTc1NywiZXhwIjoxNzI0NDM1MzU3fQ.04SKLyxPaQ9hqHkxiIqcsNv7qwd1HgUtkbLE8fPHioQ
+2024-08-24T00:58:17.235+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-6] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMTc1NywiZXhwIjoxNzI0NDM1MzU3fQ.04SKLyxPaQ9hqHkxiIqcsNv7qwd1HgUtkbLE8fPHioQ
+2024-08-24T00:58:17.236+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-6] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T00:58:17.241+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-6] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T00:58:42.398+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-1] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T00:58:42.398+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-1] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMTc1NywiZXhwIjoxNzI0NDM1MzU3fQ.04SKLyxPaQ9hqHkxiIqcsNv7qwd1HgUtkbLE8fPHioQ
+2024-08-24T00:58:42.398+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-1] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMTc1NywiZXhwIjoxNzI0NDM1MzU3fQ.04SKLyxPaQ9hqHkxiIqcsNv7qwd1HgUtkbLE8fPHioQ
+2024-08-24T00:58:42.399+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-1] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T00:58:42.407+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-1] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T00:58:42.425+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-1] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T00:58:42.425+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-1] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMTc1NywiZXhwIjoxNzI0NDM1MzU3fQ.04SKLyxPaQ9hqHkxiIqcsNv7qwd1HgUtkbLE8fPHioQ
+2024-08-24T00:58:42.425+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-1] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMTc1NywiZXhwIjoxNzI0NDM1MzU3fQ.04SKLyxPaQ9hqHkxiIqcsNv7qwd1HgUtkbLE8fPHioQ
+2024-08-24T00:58:42.426+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-1] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T00:58:42.431+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-1] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T00:59:05.244+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-3] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T00:59:05.245+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-3] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMTc1NywiZXhwIjoxNzI0NDM1MzU3fQ.04SKLyxPaQ9hqHkxiIqcsNv7qwd1HgUtkbLE8fPHioQ
+2024-08-24T00:59:05.245+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-3] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMTc1NywiZXhwIjoxNzI0NDM1MzU3fQ.04SKLyxPaQ9hqHkxiIqcsNv7qwd1HgUtkbLE8fPHioQ
+2024-08-24T00:59:05.245+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-3] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T00:59:05.255+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-3] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T00:59:05.281+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T00:59:05.281+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMTc1NywiZXhwIjoxNzI0NDM1MzU3fQ.04SKLyxPaQ9hqHkxiIqcsNv7qwd1HgUtkbLE8fPHioQ
+2024-08-24T00:59:05.281+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMTc1NywiZXhwIjoxNzI0NDM1MzU3fQ.04SKLyxPaQ9hqHkxiIqcsNv7qwd1HgUtkbLE8fPHioQ
+2024-08-24T00:59:05.282+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T00:59:05.288+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T01:01:47.730+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-4] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T01:01:47.731+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-4] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMTc1NywiZXhwIjoxNzI0NDM1MzU3fQ.04SKLyxPaQ9hqHkxiIqcsNv7qwd1HgUtkbLE8fPHioQ
+2024-08-24T01:01:47.731+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-4] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMTc1NywiZXhwIjoxNzI0NDM1MzU3fQ.04SKLyxPaQ9hqHkxiIqcsNv7qwd1HgUtkbLE8fPHioQ
+2024-08-24T01:01:47.732+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-4] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T01:01:47.740+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-4] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T01:01:47.764+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-5] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T01:01:47.764+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-5] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMTc1NywiZXhwIjoxNzI0NDM1MzU3fQ.04SKLyxPaQ9hqHkxiIqcsNv7qwd1HgUtkbLE8fPHioQ
+2024-08-24T01:01:47.764+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-5] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMTc1NywiZXhwIjoxNzI0NDM1MzU3fQ.04SKLyxPaQ9hqHkxiIqcsNv7qwd1HgUtkbLE8fPHioQ
+2024-08-24T01:01:47.765+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-5] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T01:01:47.769+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-5] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T01:06:00.084+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-7] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T01:06:00.085+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-7] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMTc1NywiZXhwIjoxNzI0NDM1MzU3fQ.04SKLyxPaQ9hqHkxiIqcsNv7qwd1HgUtkbLE8fPHioQ
+2024-08-24T01:06:00.085+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-7] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMTc1NywiZXhwIjoxNzI0NDM1MzU3fQ.04SKLyxPaQ9hqHkxiIqcsNv7qwd1HgUtkbLE8fPHioQ
+2024-08-24T01:06:00.086+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-7] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T01:06:00.095+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-7] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T01:06:00.120+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-1] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T01:06:00.120+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-1] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMTc1NywiZXhwIjoxNzI0NDM1MzU3fQ.04SKLyxPaQ9hqHkxiIqcsNv7qwd1HgUtkbLE8fPHioQ
+2024-08-24T01:06:00.120+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-1] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMTc1NywiZXhwIjoxNzI0NDM1MzU3fQ.04SKLyxPaQ9hqHkxiIqcsNv7qwd1HgUtkbLE8fPHioQ
+2024-08-24T01:06:00.121+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-1] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T01:06:00.126+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-1] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T01:11:21.865+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-4] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T01:11:21.865+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-4] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMTc1NywiZXhwIjoxNzI0NDM1MzU3fQ.04SKLyxPaQ9hqHkxiIqcsNv7qwd1HgUtkbLE8fPHioQ
+2024-08-24T01:11:21.865+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-4] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMTc1NywiZXhwIjoxNzI0NDM1MzU3fQ.04SKLyxPaQ9hqHkxiIqcsNv7qwd1HgUtkbLE8fPHioQ
+2024-08-24T01:11:21.867+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-4] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T01:11:21.879+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-4] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T01:11:21.919+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-5] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T01:11:21.919+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-5] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMTc1NywiZXhwIjoxNzI0NDM1MzU3fQ.04SKLyxPaQ9hqHkxiIqcsNv7qwd1HgUtkbLE8fPHioQ
+2024-08-24T01:11:21.919+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-5] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMTc1NywiZXhwIjoxNzI0NDM1MzU3fQ.04SKLyxPaQ9hqHkxiIqcsNv7qwd1HgUtkbLE8fPHioQ
+2024-08-24T01:11:21.920+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-5] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T01:11:21.925+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-5] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T01:11:51.493+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-6] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T01:11:51.493+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-6] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMTc1NywiZXhwIjoxNzI0NDM1MzU3fQ.04SKLyxPaQ9hqHkxiIqcsNv7qwd1HgUtkbLE8fPHioQ
+2024-08-24T01:11:51.493+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-6] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMTc1NywiZXhwIjoxNzI0NDM1MzU3fQ.04SKLyxPaQ9hqHkxiIqcsNv7qwd1HgUtkbLE8fPHioQ
+2024-08-24T01:11:51.494+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-6] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T01:11:51.505+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-6] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T01:11:51.533+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-8] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T01:11:51.533+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-8] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMTc1NywiZXhwIjoxNzI0NDM1MzU3fQ.04SKLyxPaQ9hqHkxiIqcsNv7qwd1HgUtkbLE8fPHioQ
+2024-08-24T01:11:51.533+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-8] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMTc1NywiZXhwIjoxNzI0NDM1MzU3fQ.04SKLyxPaQ9hqHkxiIqcsNv7qwd1HgUtkbLE8fPHioQ
+2024-08-24T01:11:51.534+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-8] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T01:11:51.541+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-8] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T01:11:56.334+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-7] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T01:11:56.334+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-7] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMTc1NywiZXhwIjoxNzI0NDM1MzU3fQ.04SKLyxPaQ9hqHkxiIqcsNv7qwd1HgUtkbLE8fPHioQ
+2024-08-24T01:11:56.334+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-7] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMTc1NywiZXhwIjoxNzI0NDM1MzU3fQ.04SKLyxPaQ9hqHkxiIqcsNv7qwd1HgUtkbLE8fPHioQ
+2024-08-24T01:11:56.335+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-7] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T01:11:56.343+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-7] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T01:11:56.366+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-7] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T01:11:56.366+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-7] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMTc1NywiZXhwIjoxNzI0NDM1MzU3fQ.04SKLyxPaQ9hqHkxiIqcsNv7qwd1HgUtkbLE8fPHioQ
+2024-08-24T01:11:56.367+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-7] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMTc1NywiZXhwIjoxNzI0NDM1MzU3fQ.04SKLyxPaQ9hqHkxiIqcsNv7qwd1HgUtkbLE8fPHioQ
+2024-08-24T01:11:56.368+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-7] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T01:11:56.372+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-7] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T01:12:01.174+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-3] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T01:12:01.175+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-3] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMTc1NywiZXhwIjoxNzI0NDM1MzU3fQ.04SKLyxPaQ9hqHkxiIqcsNv7qwd1HgUtkbLE8fPHioQ
+2024-08-24T01:12:01.175+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-3] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMTc1NywiZXhwIjoxNzI0NDM1MzU3fQ.04SKLyxPaQ9hqHkxiIqcsNv7qwd1HgUtkbLE8fPHioQ
+2024-08-24T01:12:01.175+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-3] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T01:12:01.185+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-3] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T01:12:01.213+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T01:12:01.213+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMTc1NywiZXhwIjoxNzI0NDM1MzU3fQ.04SKLyxPaQ9hqHkxiIqcsNv7qwd1HgUtkbLE8fPHioQ
+2024-08-24T01:12:01.213+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMTc1NywiZXhwIjoxNzI0NDM1MzU3fQ.04SKLyxPaQ9hqHkxiIqcsNv7qwd1HgUtkbLE8fPHioQ
+2024-08-24T01:12:01.214+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T01:12:01.221+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T01:12:19.659+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-10] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T01:12:19.659+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-10] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMTc1NywiZXhwIjoxNzI0NDM1MzU3fQ.04SKLyxPaQ9hqHkxiIqcsNv7qwd1HgUtkbLE8fPHioQ
+2024-08-24T01:12:19.659+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-10] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMTc1NywiZXhwIjoxNzI0NDM1MzU3fQ.04SKLyxPaQ9hqHkxiIqcsNv7qwd1HgUtkbLE8fPHioQ
+2024-08-24T01:12:19.660+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-10] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T01:12:19.670+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-10] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T01:12:19.698+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-2] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T01:12:19.698+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-2] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMTc1NywiZXhwIjoxNzI0NDM1MzU3fQ.04SKLyxPaQ9hqHkxiIqcsNv7qwd1HgUtkbLE8fPHioQ
+2024-08-24T01:12:19.698+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-2] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMTc1NywiZXhwIjoxNzI0NDM1MzU3fQ.04SKLyxPaQ9hqHkxiIqcsNv7qwd1HgUtkbLE8fPHioQ
+2024-08-24T01:12:19.699+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-2] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T01:12:19.706+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-2] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T01:12:44.601+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-4] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/security/authenticate
+2024-08-24T01:12:44.601+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-4] c.t.todolist.security.JwtRequestFilter   : Authorization Header: null
+2024-08-24T01:12:44.601+08:00  WARN 12568 --- [todolist] [http-nio-8080-exec-4] c.t.todolist.security.JwtRequestFilter   : Authorization header is missing or does not start with Bearer 
+2024-08-24T01:12:44.603+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-4] c.t.t.c.s.AuthenticationController       : Received Authentication Request: AuthenticationRequest(username=admin, password=admin)
+2024-08-24T01:12:45.536+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-5] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T01:12:45.536+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-5] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTcyNDQzMzE2NCwiZXhwIjoxNzI0NDM2NzY0fQ.Qquj1aH-FQSh6l5Ly3cL9BJe1srrMZipvssRAjjpyqA
+2024-08-24T01:12:45.536+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-5] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTcyNDQzMzE2NCwiZXhwIjoxNzI0NDM2NzY0fQ.Qquj1aH-FQSh6l5Ly3cL9BJe1srrMZipvssRAjjpyqA
+2024-08-24T01:12:45.536+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-5] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: admin
+2024-08-24T01:12:45.543+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-5] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: admin, authorities: []
+2024-08-24T01:12:45.560+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-6] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T01:12:45.560+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-6] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTcyNDQzMzE2NCwiZXhwIjoxNzI0NDM2NzY0fQ.Qquj1aH-FQSh6l5Ly3cL9BJe1srrMZipvssRAjjpyqA
+2024-08-24T01:12:45.561+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-6] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTcyNDQzMzE2NCwiZXhwIjoxNzI0NDM2NzY0fQ.Qquj1aH-FQSh6l5Ly3cL9BJe1srrMZipvssRAjjpyqA
+2024-08-24T01:12:45.561+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-6] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: admin
+2024-08-24T01:12:45.572+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-6] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: admin, authorities: []
+2024-08-24T01:14:06.568+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-7] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/security/authenticate
+2024-08-24T01:14:06.569+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-7] c.t.todolist.security.JwtRequestFilter   : Authorization Header: null
+2024-08-24T01:14:06.569+08:00  WARN 12568 --- [todolist] [http-nio-8080-exec-7] c.t.todolist.security.JwtRequestFilter   : Authorization header is missing or does not start with Bearer 
+2024-08-24T01:14:06.570+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-7] c.t.t.c.s.AuthenticationController       : Received Authentication Request: AuthenticationRequest(username=user1, password=user1)
+2024-08-24T01:14:07.592+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-3] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T01:14:07.592+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-3] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMzI0NiwiZXhwIjoxNzI0NDM2ODQ2fQ.Ffml0HibzoVuD8Ntrk169KvuouXnn0Z1osNDBdPhSuI
+2024-08-24T01:14:07.592+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-3] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMzI0NiwiZXhwIjoxNzI0NDM2ODQ2fQ.Ffml0HibzoVuD8Ntrk169KvuouXnn0Z1osNDBdPhSuI
+2024-08-24T01:14:07.593+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-3] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T01:14:07.600+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-3] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T01:14:07.623+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T01:14:07.624+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMzI0NiwiZXhwIjoxNzI0NDM2ODQ2fQ.Ffml0HibzoVuD8Ntrk169KvuouXnn0Z1osNDBdPhSuI
+2024-08-24T01:14:07.624+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMzI0NiwiZXhwIjoxNzI0NDM2ODQ2fQ.Ffml0HibzoVuD8Ntrk169KvuouXnn0Z1osNDBdPhSuI
+2024-08-24T01:14:07.624+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T01:14:07.629+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T01:24:17.214+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-5] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/security/authenticate
+2024-08-24T01:24:17.215+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-5] c.t.todolist.security.JwtRequestFilter   : Authorization Header: null
+2024-08-24T01:24:17.215+08:00  WARN 12568 --- [todolist] [http-nio-8080-exec-5] c.t.todolist.security.JwtRequestFilter   : Authorization header is missing or does not start with Bearer 
+2024-08-24T01:24:17.217+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-5] c.t.t.c.s.AuthenticationController       : Received Authentication Request: AuthenticationRequest(username=user1, password=user1)
+2024-08-24T01:24:24.047+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-6] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/security/authenticate
+2024-08-24T01:24:24.047+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-6] c.t.todolist.security.JwtRequestFilter   : Authorization Header: null
+2024-08-24T01:24:24.047+08:00  WARN 12568 --- [todolist] [http-nio-8080-exec-6] c.t.todolist.security.JwtRequestFilter   : Authorization header is missing or does not start with Bearer 
+2024-08-24T01:24:24.049+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-6] c.t.t.c.s.AuthenticationController       : Received Authentication Request: AuthenticationRequest(username=user1, password=user1)
+2024-08-24T01:24:35.776+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-1] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T01:24:35.776+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-1] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMzg2NCwiZXhwIjoxNzI0NDM3NDY0fQ.Ux63bXG6W9HZLwoQDcunGlWEkNA4oZUyBnkWlHh_zSs
+2024-08-24T01:24:35.776+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-1] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMzg2NCwiZXhwIjoxNzI0NDM3NDY0fQ.Ux63bXG6W9HZLwoQDcunGlWEkNA4oZUyBnkWlHh_zSs
+2024-08-24T01:24:35.777+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-1] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T01:24:35.782+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-1] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T01:24:35.800+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-8] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T01:24:35.800+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-8] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMzg2NCwiZXhwIjoxNzI0NDM3NDY0fQ.Ux63bXG6W9HZLwoQDcunGlWEkNA4oZUyBnkWlHh_zSs
+2024-08-24T01:24:35.800+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-8] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzMzg2NCwiZXhwIjoxNzI0NDM3NDY0fQ.Ux63bXG6W9HZLwoQDcunGlWEkNA4oZUyBnkWlHh_zSs
+2024-08-24T01:24:35.801+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-8] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T01:24:35.804+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-8] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T01:25:10.840+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-7] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/security/authenticate
+2024-08-24T01:25:10.841+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-7] c.t.todolist.security.JwtRequestFilter   : Authorization Header: null
+2024-08-24T01:25:10.841+08:00  WARN 12568 --- [todolist] [http-nio-8080-exec-7] c.t.todolist.security.JwtRequestFilter   : Authorization header is missing or does not start with Bearer 
+2024-08-24T01:25:10.842+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-7] c.t.t.c.s.AuthenticationController       : Received Authentication Request: AuthenticationRequest(username=admin, password=admin)
+2024-08-24T01:25:11.473+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-3] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T01:25:11.473+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-3] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTcyNDQzMzkxMCwiZXhwIjoxNzI0NDM3NTEwfQ.8uheiGPl2T83n4vIkJPISoZ5kMCIBBYu4hMGrT28_4o
+2024-08-24T01:25:11.473+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-3] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTcyNDQzMzkxMCwiZXhwIjoxNzI0NDM3NTEwfQ.8uheiGPl2T83n4vIkJPISoZ5kMCIBBYu4hMGrT28_4o
+2024-08-24T01:25:11.474+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-3] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: admin
+2024-08-24T01:25:11.482+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-3] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: admin, authorities: []
+2024-08-24T01:25:11.501+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T01:25:11.501+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTcyNDQzMzkxMCwiZXhwIjoxNzI0NDM3NTEwfQ.8uheiGPl2T83n4vIkJPISoZ5kMCIBBYu4hMGrT28_4o
+2024-08-24T01:25:11.501+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTcyNDQzMzkxMCwiZXhwIjoxNzI0NDM3NTEwfQ.8uheiGPl2T83n4vIkJPISoZ5kMCIBBYu4hMGrT28_4o
+2024-08-24T01:25:11.501+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: admin
+2024-08-24T01:25:11.504+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: admin, authorities: []
+2024-08-24T01:25:39.371+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-2] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T01:25:39.372+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-2] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTcyNDQzMzkxMCwiZXhwIjoxNzI0NDM3NTEwfQ.8uheiGPl2T83n4vIkJPISoZ5kMCIBBYu4hMGrT28_4o
+2024-08-24T01:25:39.372+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-2] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTcyNDQzMzkxMCwiZXhwIjoxNzI0NDM3NTEwfQ.8uheiGPl2T83n4vIkJPISoZ5kMCIBBYu4hMGrT28_4o
+2024-08-24T01:25:39.372+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-2] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: admin
+2024-08-24T01:25:39.393+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-2] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: admin, authorities: []
+2024-08-24T01:25:39.419+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-10] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T01:25:39.420+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-10] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTcyNDQzMzkxMCwiZXhwIjoxNzI0NDM3NTEwfQ.8uheiGPl2T83n4vIkJPISoZ5kMCIBBYu4hMGrT28_4o
+2024-08-24T01:25:39.420+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-10] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTcyNDQzMzkxMCwiZXhwIjoxNzI0NDM3NTEwfQ.8uheiGPl2T83n4vIkJPISoZ5kMCIBBYu4hMGrT28_4o
+2024-08-24T01:25:39.421+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-10] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: admin
+2024-08-24T01:25:39.426+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-10] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: admin, authorities: []
+2024-08-24T01:25:43.618+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-4] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T01:25:43.618+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-4] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTcyNDQzMzkxMCwiZXhwIjoxNzI0NDM3NTEwfQ.8uheiGPl2T83n4vIkJPISoZ5kMCIBBYu4hMGrT28_4o
+2024-08-24T01:25:43.618+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-4] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTcyNDQzMzkxMCwiZXhwIjoxNzI0NDM3NTEwfQ.8uheiGPl2T83n4vIkJPISoZ5kMCIBBYu4hMGrT28_4o
+2024-08-24T01:25:43.619+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-4] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: admin
+2024-08-24T01:25:43.624+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-4] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: admin, authorities: []
+2024-08-24T01:25:43.635+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-5] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T01:25:43.636+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-5] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTcyNDQzMzkxMCwiZXhwIjoxNzI0NDM3NTEwfQ.8uheiGPl2T83n4vIkJPISoZ5kMCIBBYu4hMGrT28_4o
+2024-08-24T01:25:43.636+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-5] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTcyNDQzMzkxMCwiZXhwIjoxNzI0NDM3NTEwfQ.8uheiGPl2T83n4vIkJPISoZ5kMCIBBYu4hMGrT28_4o
+2024-08-24T01:25:43.636+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-5] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: admin
+2024-08-24T01:25:43.640+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-5] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: admin, authorities: []
+2024-08-24T01:28:41.175+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-8] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/security/authenticate
+2024-08-24T01:28:41.175+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-8] c.t.todolist.security.JwtRequestFilter   : Authorization Header: null
+2024-08-24T01:28:41.175+08:00  WARN 12568 --- [todolist] [http-nio-8080-exec-8] c.t.todolist.security.JwtRequestFilter   : Authorization header is missing or does not start with Bearer 
+2024-08-24T01:28:41.177+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-8] c.t.t.c.s.AuthenticationController       : Received Authentication Request: AuthenticationRequest(username=user1, password=user1)
+2024-08-24T01:28:42.280+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-7] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T01:28:42.280+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-7] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzNDEyMSwiZXhwIjoxNzI0NDM3NzIxfQ.kJl5b3NwTRCtlifZly8aeH_voyePLWUISr19t5SpBSg
+2024-08-24T01:28:42.280+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-7] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzNDEyMSwiZXhwIjoxNzI0NDM3NzIxfQ.kJl5b3NwTRCtlifZly8aeH_voyePLWUISr19t5SpBSg
+2024-08-24T01:28:42.281+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-7] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T01:28:42.286+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-7] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T01:28:42.306+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-3] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T01:28:42.306+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-3] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzNDEyMSwiZXhwIjoxNzI0NDM3NzIxfQ.kJl5b3NwTRCtlifZly8aeH_voyePLWUISr19t5SpBSg
+2024-08-24T01:28:42.306+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-3] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzNDEyMSwiZXhwIjoxNzI0NDM3NzIxfQ.kJl5b3NwTRCtlifZly8aeH_voyePLWUISr19t5SpBSg
+2024-08-24T01:28:42.307+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-3] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T01:28:42.311+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-3] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T01:29:09.092+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/security/authenticate
+2024-08-24T01:29:09.092+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Authorization Header: null
+2024-08-24T01:29:09.092+08:00  WARN 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Authorization header is missing or does not start with Bearer 
+2024-08-24T01:29:09.093+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.t.c.s.AuthenticationController       : Received Authentication Request: AuthenticationRequest(username=admin, password=admin)
+2024-08-24T01:29:10.129+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-2] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T01:29:10.129+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-2] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTcyNDQzNDE0OSwiZXhwIjoxNzI0NDM3NzQ5fQ.iC1E632hoF31BAcrQdN7DNEHIGMWTSeATrNxRhCJ5R4
+2024-08-24T01:29:10.130+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-2] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTcyNDQzNDE0OSwiZXhwIjoxNzI0NDM3NzQ5fQ.iC1E632hoF31BAcrQdN7DNEHIGMWTSeATrNxRhCJ5R4
+2024-08-24T01:29:10.131+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-2] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: admin
+2024-08-24T01:29:10.140+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-2] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: admin, authorities: []
+2024-08-24T01:29:10.151+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-10] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T01:29:10.151+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-10] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTcyNDQzNDE0OSwiZXhwIjoxNzI0NDM3NzQ5fQ.iC1E632hoF31BAcrQdN7DNEHIGMWTSeATrNxRhCJ5R4
+2024-08-24T01:29:10.151+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-10] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTcyNDQzNDE0OSwiZXhwIjoxNzI0NDM3NzQ5fQ.iC1E632hoF31BAcrQdN7DNEHIGMWTSeATrNxRhCJ5R4
+2024-08-24T01:29:10.152+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-10] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: admin
+2024-08-24T01:29:10.156+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-10] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: admin, authorities: []
+2024-08-24T01:29:38.852+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-1] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/security/authenticate
+2024-08-24T01:29:38.853+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-1] c.t.todolist.security.JwtRequestFilter   : Authorization Header: null
+2024-08-24T01:29:38.853+08:00  WARN 12568 --- [todolist] [http-nio-8080-exec-1] c.t.todolist.security.JwtRequestFilter   : Authorization header is missing or does not start with Bearer 
+2024-08-24T01:29:38.854+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-1] c.t.t.c.s.AuthenticationController       : Received Authentication Request: AuthenticationRequest(username=user1, password=user1)
+2024-08-24T01:29:39.948+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-6] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T01:29:39.949+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-6] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzNDE3OCwiZXhwIjoxNzI0NDM3Nzc4fQ.8VyhIg3jqezGwYIo6iERgpBv9Pl2_KTT1N4fkc1wmdE
+2024-08-24T01:29:39.949+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-6] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzNDE3OCwiZXhwIjoxNzI0NDM3Nzc4fQ.8VyhIg3jqezGwYIo6iERgpBv9Pl2_KTT1N4fkc1wmdE
+2024-08-24T01:29:39.950+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-6] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T01:29:39.958+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-6] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T01:29:39.999+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-8] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T01:29:40.000+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-8] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzNDE3OCwiZXhwIjoxNzI0NDM3Nzc4fQ.8VyhIg3jqezGwYIo6iERgpBv9Pl2_KTT1N4fkc1wmdE
+2024-08-24T01:29:40.000+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-8] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzNDE3OCwiZXhwIjoxNzI0NDM3Nzc4fQ.8VyhIg3jqezGwYIo6iERgpBv9Pl2_KTT1N4fkc1wmdE
+2024-08-24T01:29:40.001+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-8] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T01:29:40.007+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-8] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T01:31:45.122+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T01:31:45.122+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzNDE3OCwiZXhwIjoxNzI0NDM3Nzc4fQ.8VyhIg3jqezGwYIo6iERgpBv9Pl2_KTT1N4fkc1wmdE
+2024-08-24T01:31:45.122+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzNDE3OCwiZXhwIjoxNzI0NDM3Nzc4fQ.8VyhIg3jqezGwYIo6iERgpBv9Pl2_KTT1N4fkc1wmdE
+2024-08-24T01:31:45.123+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T01:31:45.130+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-9] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T01:31:45.154+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-2] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T01:31:45.155+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-2] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzNDE3OCwiZXhwIjoxNzI0NDM3Nzc4fQ.8VyhIg3jqezGwYIo6iERgpBv9Pl2_KTT1N4fkc1wmdE
+2024-08-24T01:31:45.155+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-2] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzNDE3OCwiZXhwIjoxNzI0NDM3Nzc4fQ.8VyhIg3jqezGwYIo6iERgpBv9Pl2_KTT1N4fkc1wmdE
+2024-08-24T01:31:45.156+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-2] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T01:31:45.161+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-2] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T01:32:05.584+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-10] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/security/authenticate
+2024-08-24T01:32:05.584+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-10] c.t.todolist.security.JwtRequestFilter   : Authorization Header: null
+2024-08-24T01:32:05.584+08:00  WARN 12568 --- [todolist] [http-nio-8080-exec-10] c.t.todolist.security.JwtRequestFilter   : Authorization header is missing or does not start with Bearer 
+2024-08-24T01:32:05.585+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-10] c.t.t.c.s.AuthenticationController       : Received Authentication Request: AuthenticationRequest(username=user1, password=user1)
+2024-08-24T01:32:06.753+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-4] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T01:32:06.753+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-4] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzNDMyNSwiZXhwIjoxNzI0NDM3OTI1fQ.xMig75I6TbYN-_w3x7_Ch3K5XZ_2Dj5VY5qQQ4sfIkc
+2024-08-24T01:32:06.753+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-4] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzNDMyNSwiZXhwIjoxNzI0NDM3OTI1fQ.xMig75I6TbYN-_w3x7_Ch3K5XZ_2Dj5VY5qQQ4sfIkc
+2024-08-24T01:32:06.754+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-4] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T01:32:06.765+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-4] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T01:32:06.791+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-5] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T01:32:06.791+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-5] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzNDMyNSwiZXhwIjoxNzI0NDM3OTI1fQ.xMig75I6TbYN-_w3x7_Ch3K5XZ_2Dj5VY5qQQ4sfIkc
+2024-08-24T01:32:06.791+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-5] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzNDMyNSwiZXhwIjoxNzI0NDM3OTI1fQ.xMig75I6TbYN-_w3x7_Ch3K5XZ_2Dj5VY5qQQ4sfIkc
+2024-08-24T01:32:06.791+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-5] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T01:32:06.796+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-5] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T01:32:38.132+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-1] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T01:32:38.133+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-1] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzNDMyNSwiZXhwIjoxNzI0NDM3OTI1fQ.xMig75I6TbYN-_w3x7_Ch3K5XZ_2Dj5VY5qQQ4sfIkc
+2024-08-24T01:32:38.133+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-1] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzNDMyNSwiZXhwIjoxNzI0NDM3OTI1fQ.xMig75I6TbYN-_w3x7_Ch3K5XZ_2Dj5VY5qQQ4sfIkc
+2024-08-24T01:32:38.133+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-1] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T01:32:38.144+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-1] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T01:32:38.168+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-6] c.t.todolist.security.JwtRequestFilter   : Processing request to: /api/v1/CRUD/getAllTasks
+2024-08-24T01:32:38.169+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-6] c.t.todolist.security.JwtRequestFilter   : Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzNDMyNSwiZXhwIjoxNzI0NDM3OTI1fQ.xMig75I6TbYN-_w3x7_Ch3K5XZ_2Dj5VY5qQQ4sfIkc
+2024-08-24T01:32:38.169+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-6] c.t.todolist.security.JwtRequestFilter   : Extracted JWT from Header: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTcyNDQzNDMyNSwiZXhwIjoxNzI0NDM3OTI1fQ.xMig75I6TbYN-_w3x7_Ch3K5XZ_2Dj5VY5qQQ4sfIkc
+2024-08-24T01:32:38.169+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-6] c.t.todolist.security.JwtRequestFilter   : Extracted Username from JWT: user1
+2024-08-24T01:32:38.174+08:00  INFO 12568 --- [todolist] [http-nio-8080-exec-6] c.t.todolist.security.JwtRequestFilter   : Loaded user details: username: user1, authorities: []
+2024-08-24T01:39:09.844+08:00  INFO 12568 --- [todolist] [RMI TCP Connection(233)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-08-24T01:39:09.930+08:00  INFO 12568 --- [todolist] [RMI TCP Connection(233)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-24T01:39:09.960+08:00  INFO 12568 --- [todolist] [RMI TCP Connection(233)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-24T01:39:10.005+08:00  INFO 12568 --- [todolist] [RMI TCP Connection(233)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-24T01:42:03.452+08:00  INFO 2460 --- [todolist] [restartedMain] c.todolist.todolist.TodolistApplication  : Starting TodolistApplication using Java 21 with PID 2460 (C:\Users\360Appz\Downloads\CAREER\spring-boot-projects\todolist\target\classes started by 360Appz in C:\Users\360Appz\Downloads\CAREER\spring-boot-projects\todolist)
+2024-08-24T01:42:03.456+08:00  INFO 2460 --- [todolist] [restartedMain] c.todolist.todolist.TodolistApplication  : No active profile set, falling back to 1 default profile: "default"
+2024-08-24T01:42:03.518+08:00  INFO 2460 --- [todolist] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\360Appz\.m2\repository\com\oracle\database\jdbc\ojdbc8\21.9.0.0\ojdbc8-21.9.0.0.jar referenced one or more files that do not exist: file:/C:/Users/360Appz/.m2/repository/com/oracle/database/jdbc/ojdbc8/21.9.0.0/oraclepki.jar
+2024-08-24T01:42:03.519+08:00  INFO 2460 --- [todolist] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-24T01:42:03.519+08:00  INFO 2460 --- [todolist] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-24T01:42:04.445+08:00  INFO 2460 --- [todolist] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-24T01:42:04.531+08:00  INFO 2460 --- [todolist] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 77 ms. Found 3 JPA repository interfaces.
+2024-08-24T01:42:05.252+08:00  INFO 2460 --- [todolist] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-24T01:42:05.271+08:00  INFO 2460 --- [todolist] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-24T01:42:05.272+08:00  INFO 2460 --- [todolist] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-24T01:42:05.330+08:00  INFO 2460 --- [todolist] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-24T01:42:05.331+08:00  INFO 2460 --- [todolist] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1811 ms
+2024-08-24T01:42:05.544+08:00  INFO 2460 --- [todolist] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-24T01:42:05.642+08:00  INFO 2460 --- [todolist] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-24T01:42:05.714+08:00  INFO 2460 --- [todolist] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-24T01:42:06.118+08:00  INFO 2460 --- [todolist] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-24T01:42:06.162+08:00  INFO 2460 --- [todolist] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-24T01:42:06.533+08:00  INFO 2460 --- [todolist] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@c63c56a
+2024-08-24T01:42:06.536+08:00  INFO 2460 --- [todolist] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-24T01:42:07.924+08:00  INFO 2460 --- [todolist] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-24T01:42:08.253+08:00  INFO 2460 --- [todolist] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-24T01:42:08.565+08:00 ERROR 2460 --- [todolist] [restartedMain] o.s.b.web.embedded.tomcat.TomcatStarter  : Error starting Tomcat context. Exception: org.springframework.beans.factory.BeanCreationException. Message: Error creating bean with name 'securityConfig' defined in file [C:\Users\360Appz\Downloads\CAREER\spring-boot-projects\todolist\target\classes\com\todolist\todolist\config\SecurityConfig.class]: Failed to instantiate [com.todolist.todolist.config.SecurityConfig$$SpringCGLIB$$0]: Constructor threw exception
+2024-08-24T01:42:08.596+08:00  INFO 2460 --- [todolist] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-08-24T01:42:08.599+08:00  WARN 2460 --- [todolist] [restartedMain] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [oracle.jdbc.driver.BlockSource.ThreadedCachingBlockSource.BlockReleaser] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ oracle.jdbc.internal.Monitor$WaitableMonitor.monitorWait(Monitor.java:258)
+ oracle.jdbc.internal.Monitor$WaitableMonitor.monitorWait(Monitor.java:240)
+ oracle.jdbc.driver.BlockSource$ThreadedCachingBlockSource$BlockReleaser.run(BlockSource.java:345)
+2024-08-24T01:42:08.599+08:00  WARN 2460 --- [todolist] [restartedMain] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [InterruptTimer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base/java.util.TimerThread.run(Timer.java:516)
+2024-08-24T01:42:08.599+08:00  WARN 2460 --- [todolist] [restartedMain] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [OJDBC-WORKER-THREAD-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:401)
+ java.base/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:903)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1069)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+2024-08-24T01:42:08.600+08:00  WARN 2460 --- [todolist] [restartedMain] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+2024-08-24T01:42:08.600+08:00  WARN 2460 --- [todolist] [restartedMain] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [HikariPool-1 connection adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:460)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1069)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+2024-08-24T01:42:08.602+08:00  WARN 2460 --- [todolist] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2024-08-24T01:42:08.603+08:00  INFO 2460 --- [todolist] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-24T01:42:08.606+08:00  INFO 2460 --- [todolist] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-24T01:42:08.647+08:00  INFO 2460 --- [todolist] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-24T01:42:08.658+08:00  INFO 2460 --- [todolist] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-08-24T01:42:08.688+08:00 ERROR 2460 --- [todolist] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.context.ApplicationContextException: Unable to start web server
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:165) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:619) ~[spring-context-6.1.11.jar:6.1.11]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.2.jar:3.3.2]
+	at com.todolist.todolist.TodolistApplication.main(TodolistApplication.java:23) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.3.2.jar:3.3.2]
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:147) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:107) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:516) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:222) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:188) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162) ~[spring-boot-3.3.2.jar:3.3.2]
+	... 11 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'securityConfig' defined in file [C:\Users\360Appz\Downloads\CAREER\spring-boot-projects\todolist\target\classes\com\todolist\todolist\config\SecurityConfig.class]: Failed to instantiate [com.todolist.todolist.config.SecurityConfig$$SpringCGLIB$$0]: Constructor threw exception
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:318) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:306) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1375) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1212) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:409) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1355) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1185) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:211) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:174) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:169) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:154) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:87) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:266) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:240) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:52) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4414) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145) ~[na:na]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:772) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145) ~[na:na]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:874) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:437) ~[tomcat-embed-core-10.1.26.jar:10.1.26]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:128) ~[spring-boot-3.3.2.jar:3.3.2]
+	... 16 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.todolist.todolist.config.SecurityConfig$$SpringCGLIB$$0]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:221) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:117) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:315) ~[spring-beans-6.1.11.jar:6.1.11]
+	... 66 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Syntax error on tokens, delete these tokens
+	Syntax error on tokens, delete these tokens
+
+	at com.todolist.todolist.config.SecurityConfig.<init>(SecurityConfig.java:2) ~[classes/:na]
+	at com.todolist.todolist.config.SecurityConfig$$SpringCGLIB$$0.<init>(<generated>) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:208) ~[spring-beans-6.1.11.jar:6.1.11]
+	... 68 common frames omitted
+

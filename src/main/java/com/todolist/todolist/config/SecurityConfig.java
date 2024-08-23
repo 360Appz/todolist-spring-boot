@@ -1,8 +1,9 @@
 package com.todolist.todolist.config;
 
-
 import com.todolist.todolist.security.JwtRequestFilter;
 import com.todolist.todolist.services.security.MyUserDetailsService;
+import com.todolist.todolist.utils.JwtUtil;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -12,9 +13,8 @@ import org.springframework.security.config.annotation.authentication.configurati
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.http.SessionCreationPolicy;
-import org.springframework.security.core.userdetails.User;
-import org.springframework.security.core.userdetails.UserDetailsService;
-import org.springframework.security.provisioning.InMemoryUserDetailsManager;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
@@ -22,31 +22,35 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 @EnableWebSecurity
 public class SecurityConfig {
 
-    @Autowired
-    private JwtRequestFilter jwtRequestFilter;
+    private final JwtUtil jwtUtil;
+    private final MyUserDetailsService myUserDetailsService;
 
     @Autowired
-    private MyUserDetailsService  myUserDetailsService;
+    public SecurityConfig(JwtUtil jwtUtil, MyUserDetailsService myUserDetailsService) {
+        this.jwtUtil = jwtUtil;
+        this.myUserDetailsService = myUserDetailsService;
+    }
 
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http
             .csrf(csrf -> csrf
-                .ignoringRequestMatchers("/h2-console/**", "/api/v1/security/authenticate")
+                .ignoringRequestMatchers("/api/v1/security/authenticate", "/api/v1/security/register", "/api/v1/CRUD/**")
             )
             .headers(headers -> headers
                 .frameOptions().sameOrigin() // Ensures H2 Console can be loaded
             )
             .authorizeHttpRequests(authorizeRequests -> authorizeRequests
-                .requestMatchers("/h2-console/**", "/api/v1/security/authenticate").permitAll()
+                .requestMatchers( "/api/v1/security/authenticate", "/api/v1/security/register").permitAll()
+                .requestMatchers("/api/v1/CRUD/**").authenticated() // Ensure all CRUD endpoints are protected
+                .requestMatchers("/api/v1/tasks/search/**").authenticated() // Only allow authenticated users can search
                 .anyRequest().authenticated()
             )
             .sessionManagement(sessionManagement -> sessionManagement
                 .sessionCreationPolicy(SessionCreationPolicy.STATELESS)
             );
 
-        // Add JWT request filter
-        http.addFilterBefore(jwtRequestFilter, UsernamePasswordAuthenticationFilter.class);
+        http.addFilterBefore(jwtRequestFilter(), UsernamePasswordAuthenticationFilter.class);
 
         return http.build();
     }
@@ -55,23 +59,14 @@ public class SecurityConfig {
     public AuthenticationManager authenticationManager(AuthenticationConfiguration authenticationConfiguration) throws Exception {
         return authenticationConfiguration.getAuthenticationManager();
     }
-    
-    @Autowired
-    public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
-        auth.userDetailsService(myUserDetailsService);
-    }
-    
+
     @Bean
-    public UserDetailsService userDetailsService() {
-        InMemoryUserDetailsManager manager = new InMemoryUserDetailsManager();
-        manager.createUser(User.withUsername("user")
-                .password("{noop}password") // {noop} indicates no password encoding
-                .roles("USER").build());
-        manager.createUser(User.withUsername("admin")
-                .password("{noop}admin") // {noop} indicates no password encoding
-                .roles("ADMIN").build());
-        return manager;
+    public PasswordEncoder passwordEncoder() {
+        return new BCryptPasswordEncoder();
     }
-    
-   
+
+    @Bean
+    public JwtRequestFilter jwtRequestFilter() {
+        return new JwtRequestFilter(myUserDetailsService, jwtUtil);
+    }
 }
