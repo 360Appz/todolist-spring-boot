@@ -21,10 +21,17 @@ public class RegistrationController {
     @PostMapping("/register")
     public ResponseEntity<?> registerUser(@RequestBody RegistrationRequest registrationRequest) {
         try {
-            logger.info("Received Registration Request: {}", registrationRequest);
+        	  logger.info("Received Registration Request: {}", registrationRequest);
 
-            // Create a new user and handle conflicts inside saveNewUser
-            return myUserDetailsService.saveNewUser(registrationRequest);
+              // Create a new user and handle conflicts inside saveNewUser
+              ResponseEntity<?> response = myUserDetailsService.saveNewUser(registrationRequest);
+              
+              // Check if the registration was successful based on the response from saveNewUser
+              if (response.getStatusCode().is2xxSuccessful()) {
+                  return ResponseEntity.status(HttpStatus.CREATED).body("Registration successful");
+              } else {
+                  return response; // Return the original response from saveNewUser if not successful
+              }
 
         } catch (Exception e) {
             logger.error("Error during registration", e);
