@@ -58,5 +58,3 @@ This is the backend service for the todolist-react frontend web dashboard applic
 - Eclipse IDE
 
 
-
-### References
